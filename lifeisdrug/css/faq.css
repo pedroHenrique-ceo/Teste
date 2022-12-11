@@ -1,0 +1,190 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+.cabecalho{
+    transition: 0.2s;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    margin: 0px;
+    padding: 0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center; 
+}
+#cabecalho{
+    margin: auto;
+    z-index: 1;
+    height: 95px;
+    background-color: cadetblue;
+}
+.voltar{
+    z-index: 9;
+    position: absolute;
+    height: 40px;
+    left: 0%;
+    top: -2px;
+    transition:height 1s,transform 2s;
+}
+.voltar:hover{
+    height: 43px;
+}
+.faq{
+    color: #fff;
+    font-size: 15px;
+    font-family: heebo;
+    font-size: 200%;
+    z-index: 9;
+    position: absolute;
+    left: 48%;
+    top: 146px;
+}
+.h2{
+    color: #fff;
+    font-family: heebo;
+    font-size: 180%;
+    left: 82px;
+    position: absolute;
+    top: 255px;
+}
+
+.h3{
+    font-family: heebo;
+    color: #fff;
+    position: absolute;
+    left: 82px;
+    font-size: 180%;
+}
+.h4{
+    font-family: heebo;
+    color: #fff;
+    font-size: 180%;
+    position: absolute;
+    left: 81px;
+    top: 365px;
+}
+.h5{
+    color: #fff;
+    font-family: heebo;
+    position: absolute;
+    font-size: 180%;
+    left: 80px;
+    top: 501px;
+}
+.h6{
+    font-family: heebo;
+    position: absolute;
+    font-size: 180%;
+    left: 79px;
+    top: 592px;
+    color: #fff;
+}
+.h7{
+    left: 79px;
+    font-family: heebo;
+    font-size: 180%;
+    color: #fff;
+    position: absolute;
+    top: 693px;
+    font-size: 180%;
+}
+
+.c1{
+    font-family: heebo;
+    position: absolute;
+    font-size: 94%;
+    top: 196px;
+    left: 82px;
+    z-index: 9;
+    color: #fff;
+}
+.c2{
+    font-family: heebo;
+    font-size: 94%;
+    position: absolute;
+    top: 294px;
+    left: 83px;
+    color: #fff;
+}
+.c3{
+    font-family: heebo;
+    position: absolute;
+    font-size: 94%;
+    top: 407px;
+    left: 81px;
+    color: #fff;
+    width: 1118px;
+}
+.c4{
+    font-size: 94%;
+    font-family: heebo;
+    color: #fff;
+    position: absolute;
+    left: 80px;
+    top: 541px;
+}
+.c5{
+    color: #fff;
+    font-family: heebo;
+    position: absolute;
+    font-size: 94%;
+    left: 79px;
+    top: 632px;
+    width: 1238px;
+}
+.c6{
+    color: #fff;
+    font-family: heebo;
+    position: absolute;
+    font-size: 94%;
+    left: 79px;
+    top: 732px;
+    width: 1238px;
+}
+.a1{
+    font-size: 120%;
+    font-family: heebo;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    font-size: 120%;
+    left: 550px;
+    top: 829px;
+}
+
+.fundo{
+    position: absolute;
+    background-color: rgb(76 75 75);
+    height: 92%;
+    width: 94%;
+    top: 18%;
+    left: 3%;
+    z-index: -1;
+    border-radius: 42px;
+}
+.title-c{
+    position: absolute;
+    font-size: 400%;
+    left: 1%;
+    top: 15px;
+    font-family: america;
+}
+.nav-1{
+    background: #000;
+    top: 95px;
+    position: absolute;
+    height: 35px;
+    width: 1423px;
+}
+
+
+@font-face {
+    font-family:'heebo';
+    src: url(/font/Heebo-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:'america';
+    src: url(/font/American\ Captain.otf);
+}

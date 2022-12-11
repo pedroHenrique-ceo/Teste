@@ -1,0 +1,662 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+.topo{
+    height: 175px;
+    background-color: rgba(95, 158, 160, 0.527);
+}
+.conteudo{
+    z-index: 1;
+    height: 70px;
+    height: 86px;
+    background-color: rgba(95, 158, 160, 0.527);
+}
+.lfd{
+    position: fixed;
+    color: #000;
+    z-index: 100;
+    position: absolute;
+    top: 3%;
+    font-size: 555%;
+    left: 570px;
+    font-family: america;;
+}
+.it_e{
+    width: 305px;
+    height: 425px;
+    float: left;
+    background-color: black;
+    border-right: 15px solid #0000;
+    border-bottom: 5px solid #0000;
+    margin: 0px;
+    padding: 0px;
+}
+.it_d{
+    width:305px;
+    height:425px;
+    float:right;
+    background-color: #000000;
+    border-left: 15px solid #C0C0C0;
+    border-top: 5px solid #2E8B57;
+    border-bottom: 5px solid #2E8B57;
+    margin-right: 0px;
+    padding: 0px;
+}
+.rodape{
+    width:1440px;
+    height:75px;
+    clear:both;
+    background-color: #000;
+    border-top: 5px solid #00FA9A;
+}
+body{
+    background-color: #fff;
+    font-family: "Verdana";
+    font-size: 18;
+}
+.nav_tabs ul{
+    list-style: none;
+}
+.nav_tabs ul li{
+    float: left;
+}
+.nav_tabs label{
+    width: 280px;
+    padding: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    display: inline-table;
+    text-align: left;
+    border-bottom: 5px solid #00FA9A;
+    margin: 0;
+}
+.bl_tabs:checked ~ label{
+    background-color: #fff;
+    color: #fff;
+    border-top: 5px;
+}
+.bl_tabs{
+    display: none;
+}
+body{
+    color: #000;
+}
+.cabecalho{
+    transition: 0.2s;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    margin: 0px;
+    padding: 0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center; 
+}
+#cabecalho{
+    z-index: 1;
+    height: 70px;
+    height: 80px;
+    background-color: #5f9ea0a6;
+}
+.logo {
+    margin: 0px 0px 0px 0px;
+    color: rgba(#255, #255, #255, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+body{
+    color: #fff;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav p {
+    float: left;
+    left: 10%;
+    font-size: 180%;
+    margin-left: 20px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+nav h2 {
+    text-align: center;
+    font-size: 46px;
+}
+#cabecalho{
+    height: 83px;
+    z-index: 1;
+    height: 158px;
+    background-color: #5f9ea0b2;
+}
+.img-h-1{
+    align-items: center;
+}
+
+.h6{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 47%;
+    font-size: 100%;
+    top: 103%;
+    width: 53%;
+}
+.h5{
+    background-color: #000;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: -6%;
+    font-size: 100%;
+    top: 103%;
+    width: 53%;
+}
+
+html, body {
+    height: 100%;
+  }
+  nav a {
+    color: #9a9a9a;
+    position: absolute;
+    top: 155px;
+    left: 676px;
+    font-family: fantasy;
+    font-size: 206%;
+    cursor: pointer;
+}
+nav a:hover{
+    color: #fff;
+}
+/* menu */
+.menu{
+    width: 100%;
+    height: 5%;
+    float: left;
+    background-color: #111;
+}
+.produtos-1{
+    z-index: 102;
+    position: absolute;
+    height: 57px;
+    left: 502px;
+    top: 690px;
+    animation-name: example;
+    animation-fill-mode: forwards;
+}
+.produtos-1:hover {
+    height: 70px;
+}
+@keyframes example{
+    from {top: 690px;}
+    to {top: 711px;}
+}
+.produtos-2{
+    z-index: 102;
+    position: absolute;
+    height: 57px;
+    left: 429px;
+    top: 709px;
+    animation-name: example-2;
+    animation-fill-mode: forwards;
+}
+.produtos-2:hover {
+    height: 70px;
+}
+@keyframes example-2{
+    from {top: 690px;}
+    to {top: 711px;}
+}
+.produtos-3{
+    z-index: 102;
+    position: absolute;
+    height: 58px;
+    top: 703px;
+    left: 573px;
+    animation-name: example-3;
+    animation-fill-mode: forwards;
+}
+.produtos-3:hover {
+    height: 70px;
+}
+@keyframes example-3{
+    from {top: 690px;}
+    to {top: 713px;}
+}
+.videoecs{
+    z-index: 3;
+    position: absolute;
+    top: 196px;
+    left: -1px;
+    height: 78%;
+    width: 1424px;
+}
+.dock{
+    position: absolute;
+    z-index: 101;
+    background-color: #383838a3;
+    top: 91%;
+    height: 59px;
+    left: 400px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.produot-1{
+    position: absolute;
+    background-color: #343434;
+    top: 107%;
+    left: 30%;
+    height: 24%;
+    width: 10%;
+    border-radius: 11px;
+}
+.ect-1{
+    z-index: 4;
+    position: absolute;
+    top: 108%;
+    left: 31%;
+    height: 15%;
+}
+
+.preço-1{
+    font-size: 13px;
+    z-index: 4;
+    color: #fff;
+    position: absolute;
+    top: 993px;
+    left: 439px;
+    font-family: heebo;
+}
+.title-p-1{
+    z-index: 4;
+    position: absolute;
+    top: 956px;
+    left: 449px;
+    color: #fff;
+    font-family: heebo;
+    font-size: 13px;
+}
+
+.ds-1{
+    z-index: 4;
+    position: absolute;
+    top: 976px;
+    left: 436px;
+    color: #fff;
+    font-size: 13px;
+    font-family: heebo;
+}
+
+.bck{
+    z-index: 3;
+    top: 840px;
+    position: absolute;
+    left: 431px;
+    height: 179px;
+    width: 134px;
+    background-color: #747474db;
+    border-radius: 9px;
+}
+
+.faq{
+    font-size: 16px;
+    border: transparent;
+    color: #fff;
+    font-family: heebo;
+    background-color: transparent;
+    position: absolute;
+    left: 575px;
+    width: 74px;
+    height: 26px;
+    top: 9px;
+    transition:height 1s,transform 1s;
+}
+.faq:hover{
+    background-color: rgb(48, 48, 48);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    font-size: 16px;
+    font-family: heebo;
+    border-radius: 20px;
+}
+
+.warning{
+    border: transparent;
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+    font-family: heebo;
+    position: absolute;
+    left: 659px;
+    top: 9px;
+    width: 74px;
+    height: 26px;
+    transition:height 1s,transform 1s;
+}
+.warning:hover{
+    background-color: rgb(48, 48, 48);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    font-size: 16px;
+    font-family: heebo;
+    border-radius: 20px;
+}
+.shop{
+    background: transparent;
+    border: transparent;
+    font-size: 16px;
+    color: #fff;
+    font-family: heebo;
+    position: absolute;
+    left: 687px;
+    top: 164px;
+    height: 26px;
+    width: 74px;
+    transition: height 1s,transform 1s;
+}
+.shop:hover{
+    background-color: rgb(48, 48, 48);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    font-size: 16px;
+    font-family: heebo;
+    border-radius: 20px;
+}
+
+.produot-2{
+    position: absolute;
+    background-color: #343434;
+    left: 0%;
+    top: 107%;
+    z-index: 3;
+    height: 24%;
+    width: 10%;
+    border-radius: 9px;
+    left: 45%;
+}
+.bck-2{
+    z-index: 3;
+    top: 840px;
+    position: absolute;
+    left: 644px;
+    height: 179px;
+    width: 134px;
+    background-color: #747474db;
+    border-radius: 9px;
+}
+.ect-2{
+    z-index: 4;
+    position: absolute;
+    top: 107%;
+    left: 649px;
+    height: 15%;
+}
+.preço-2{
+    font-size: 13px;
+    z-index: 4;
+    color: #fff;
+    position: absolute;
+    top: 993px;
+    left: 649px;
+    font-family: heebo;
+}
+.title-p-2{
+    z-index: 4;
+    position: absolute;
+    top: 956px;
+    left: 658px;
+    color: #fff;
+    font-family: heebo;
+    font-size: 13px;
+}
+.ds-2{
+    z-index: 4;
+    position: absolute;
+    top: 976px;
+    left: 647px;
+    color: #fff;
+    font-size: 13px;
+    font-family: heebo;
+}
+.produot-3{
+    position: absolute;
+    background-color: #343434;
+    top: 107%;
+    z-index: 3;
+    height: 24%;
+    width: 10%;
+    border-radius: 9px;
+    left: 60%;
+}
+.bck-3{
+    z-index: 3;
+    top: 840px;
+    position: absolute;
+    left: 859px;
+    height: 178px;
+    width: 132px;
+    background-color: #747474db;
+    border-radius: 9px;
+}
+.ect-3{
+    z-index: 4;
+    position: absolute;
+    top: 107%;
+    left: 869px;
+    height: 15%;
+}
+.preço-3{
+    font-size: 13px;
+    z-index: 4;
+    color: #fff;
+    position: absolute;
+    top: 993px;
+    left: 865px;
+    font-family: heebo;
+}
+.title-p-3{
+    z-index: 4;
+    position: absolute;
+    top: 956px;
+    left: 876px;
+    color: #fff;
+    font-family: heebo;
+    font-size: 13px;
+}
+.ds-3{
+    z-index: 4;
+    position: absolute;
+    top: 976px;
+    left: 861px;
+    color: #fff;
+    font-size: 13px;
+    font-family: heebo;
+}
+
+.diazepam-t{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 47%;
+    font-size: 100%;
+    top: 133%;
+    width: 53%;
+    height: 19px;
+}
+.ritalin-bar{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 47%;
+    font-size: 100%;
+    top: 164%;
+    width: 53%;
+    height: 19px;
+}
+
+.barra-2{
+    z-index: 1001;
+    background-color: #000;
+    position: absolute;
+    left: -1%;
+    font-size: 100%;
+    top: 133%;
+    width: 48%;
+    height: 19px;
+}
+.barra-3{
+    background-color: #000;
+    position: absolute;
+    left: 0%;
+    font-size: 100%;
+    top: 164%;
+    width: 47%;
+    height: 19px;
+}
+
+.diazepam-produto-1{
+    position: absolute;
+    background-color: #343434;
+    top: 137%;
+    left: 30%;
+    height: 24%;
+    width: 10%;
+    border-radius: 11px;
+}
+.bck-4{
+    z-index: 3;
+    top: 1074px;
+    position: absolute;
+    left: 431px;
+    height: 178px;
+    width: 134px;
+    background-color: #747474db;
+    border-radius: 9px;
+}
+.diazepam-icon-1{
+    z-index: 3;
+    position: absolute;
+    top: 138%;
+    left: 447px;
+    height: 12%;
+    width: 7%;
+    border-radius: 11px;
+}
+.title-p-4{
+    z-index: 5;
+    position: absolute;
+    top: 149%;
+    left: 466px;
+    color: #fff;
+    font-family: heebo;
+    font-size: 13px;
+}
+
+.ds-4{
+    z-index: 4;
+    position: absolute;
+    top: 1186px;
+    left: 443px;
+    color: #fff;
+    font-size: 13px;
+    font-family: heebo;
+}
+.preço-4{
+    z-index: 4;
+    position: absolute;
+    top: 1217px;
+    left: 435px;
+    color: #fff;
+    font-size: 12px;
+    font-family: heebo;
+}
+.catalog-1{
+    background: transparent;
+    border: transparent;
+    font-size: 16px;
+    color: #fff;
+    font-family: heebo;
+    position: absolute;
+    left: 797px;
+    top: 164px;
+    height: 26px;
+    width: 74px;
+    transition: height 1s,transform 1s;
+}
+.catalog-1:hover{
+    background-color: rgb(48, 48, 48);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    font-size: 16px;
+    font-family: heebo;
+    border-radius: 20px;
+}
+.beta{
+    color: #fff;
+    font-family: heebo;
+    transition: width 1s, height 1s,transform 1s;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.596);
+    position: absolute;
+    border: transparent;
+    top: 92px;
+    left: 870px;
+    height: 29px;
+    width: 63px;
+    z-index: 1001;
+}
+.beta:hover{
+    height: 33px;
+    width: 66px;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family:'america';
+    src: url(../font/American\ Captain.otf);
+}
+
+@font-face {
+    font-family:'heebo';
+    src: url(../font/Heebo-VariableFont_wght.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

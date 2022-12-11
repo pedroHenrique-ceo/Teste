@@ -1,0 +1,251 @@
+
+*{
+    margin: auto;
+    padding: 0px;
+}
+.top{
+    height: 175px;
+    background-color: cadetblue;
+}
+.e-1{
+    width: 9%;
+    position: absolute;
+    left: 10%;
+}
+.e-2{
+    width: 9%;
+    position: absolute;
+    left: 10%;
+}
+.e-3{
+    width: 9%;
+    position: absolute;
+    left: 10%;
+}
+.e-4{
+    width: 9%;
+    position: relative;
+    right: 35%; 
+}
+.e-5{
+    width: 9%;
+    position: relative;
+    right: 35%;
+}
+
+button.slick-prev.slick-arrow{
+    font-size: 0%;
+    border: transparent;
+    background-image: url(/lifeisdrug/img/esquerda.png);
+    position: absolute;
+    background-color: transparent;
+    z-index: 9;
+    top: 11%;
+    height: 26%;
+    left: 1%;
+    width: 4%;
+}
+button.slick-next{
+    font-size: 0%;
+    border: transparent;
+    background-image: url(/lifeisdrug/img/direita.png);
+    position: absolute;
+    background-color: transparent;
+    z-index: 9;
+    top: 11%;
+    right: 72%;
+    height: 26%;
+    width: 4%;
+}
+.cabecalho{
+    z-index: 1;
+    transition: 0.2s;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center; 
+    background-color: cadetblue;
+}
+#cabecalho{
+    z-index: 1;
+    margin: auto;
+    z-index: 1;
+    height: 70px;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+
+.botao-de-compra{
+    position: absolute;
+    left: 61%;
+    top: 476px;
+    height: 5%;
+    width: 11%;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.botao-de-compra:hover{
+    background-color: rgb(90, 90, 90);
+    color: #000;
+}
+.preço{
+    position: absolute;
+    left: 880px;
+    top: 437px;
+    font-family: heebo;
+    color: #fff;
+}
+.titulo-do-produto{
+    font-family: heebo;
+    color: #fff;
+    position: absolute;
+    left: 58%;
+    top: 18%;
+    font-size: 300%; 
+}
+.descricao-do-produto{
+    font-family: heebo;
+    color: #fff;
+    position: absolute;
+    left: 53%;
+    top: 27%;
+    font-size: 233%;
+    font-family: heebo;
+}
+
+.descricao-do-produto-3{
+    position: absolute;
+    left: 22%;
+    top: 91%;
+    font-size: 132%;
+}
+.title-c{
+    position: absolute;
+    font-size: 400%;
+    left: 0%;
+    top: 15px;
+    font-family: america;
+}
+.faq{
+    background-color: #a9a9a9;
+    z-index: 101;
+    position: absolute;
+    top: 4px;
+    left: 1243px;
+    height: 28px;
+    width: 42px;
+    border-radius: 12%;
+}
+
+.menu{
+    width: 100%;
+    height: 5%;
+    float: left;
+    background-color: #000;
+    position: absolute;
+    top: 100px;
+}
+
+.voltar{
+    z-index: 105;
+    position: absolute;
+    top: 90px;
+    left: -10px;
+    height: 58px;
+    transition:height 1s,transform 2s;
+}
+.voltar:hover{
+    height: 65px;
+}
+
+.borda{
+    position: absolute;
+    height: 52%;
+    width: 100%;
+    top: 17%;
+    left: 0%;
+    background-color: #000000;
+
+}
+
+.fundo{
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    top: 17%;
+    left: 1%;
+    border-radius: 16px;
+}
+
+.ects-1{
+    position: absolute;
+    top: 22%;
+    left: 1%;
+}
+
+.ec-1{
+    height: 134px;
+    position: absolute;
+    top: 72%;
+    left: 39%;
+}
+.ec-1:hover{
+    height: 150px; 
+}
+
+.ec-2{
+    height: 134px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+}
+.ec-2:hover{
+    height: 150px; 
+}
+
+.fundo-p{
+    position: absolute;
+    background-color: rgb(124 123 123);
+    top: 19%;
+    left: 2%;
+    height: 43%;
+    width: 26%;
+    border-radius: 20px;
+}
+.dzm-1{
+    position: absolute;
+    top: 13%;
+    left: 16%;
+    height: 232px;
+    transition: height 1s,transform 1s;
+}
+.dzm-1:hover{
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family:'america';
+    src: url(/font/American\ Captain.otf);
+}
+@font-face {
+    font-family:'heebo';
+    src: url(/font/Heebo-VariableFont_wght.ttf);
+}
+
+
+
+
+

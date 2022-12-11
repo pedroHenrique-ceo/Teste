@@ -1,0 +1,128 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+.topo{
+    height: 175px;
+    background-color: cadetblue;
+}
+.title-c{
+    position: absolute;
+    font-size: 400%;
+    left: 1%;
+    top: 1px;
+    font-family: america
+}
+.cabecalho{
+    transition: 0.2s;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    margin: 0px;
+    padding: 0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center; 
+}
+#cabecalho{
+    z-index: 1;
+    height: 70px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.img-pag{
+    z-index: 1;
+    position: absolute;
+    left: 43%;
+    height: 30%;
+    top: 17%;
+}
+#voltar{
+    position: absolute;
+}
+.voltar{
+    height: 40px;
+    left: 10%;
+    transition:height 1s,transform 2s;
+}
+.voltar:hover{
+    height: 43px;
+}
+.text-1{
+    font-family: heebo;
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    font-size: 120%;
+    width: 1000px;
+    height: 100px;
+}
+.text-2{
+    font-family: heebo;
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 64%;
+    font-size: 120%;
+    width: 1000px;
+    height: 100px;
+}
+.text-3{
+    top: 84%;
+    font-size: 130%;
+    font-family: heebo;
+    color: #fff;
+    position: absolute;
+    left: 43%;
+    width: 1000px;
+    height: 100px;
+}
+.fundo-1{
+    position: absolute;
+    background-color: #000;
+    top: 123px;
+    left: 0px;
+    height: 624px;
+    width: 1440px;
+}
+.fundo-2{
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(97, 97, 97);
+    top: 167px;
+    left: 45px;
+    height: 551px;
+    width: 1376px;
+}
+.fundo-3{
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(143, 143, 143);
+    top: 173px;
+    left: 53px;
+    height: 535px;
+    width: 1359px;
+}
+.nav-1{
+    background-color: #161616;
+    position: absolute;
+    height: 43px;
+    width: 1440px;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family:'heebo';
+    src: url(/font/Heebo-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:'america';
+    src: url(/font/American\ Captain.otf);
+}
